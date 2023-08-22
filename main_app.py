@@ -4,7 +4,6 @@ import streamlit as st
 import cv2
 from keras.models import load_model
 
-
 #Loading the Model
 model = load_model('plant_disease.h5')
 
